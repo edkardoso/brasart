@@ -1,49 +1,49 @@
-# http://www.gnu.org/software/automake
+client-bs
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
+# compiled output
+/tmp
+/out-tsc
 
-# http://www.gnu.org/software/autoconf
+# dependencies
+/node_modules
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# https://www.gnu.org/software/libtool/
+# IDE - VSCode
+.vs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
-/ltmain.sh
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+yarn.lock
+package-lock.json
+.dist
 
-# http://www.gnu.org/software/texinfo
+# System Files
+.DS_Store
+Thumbs.db
 
-/texinfo.tex
+# Dotnet files
+obj
+bin
 
-# http://www.gnu.org/software/m4/
-
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
-
-# Generated Makefile 
-# (meta build system like autotools, 
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+#Docs
+/server/docs
